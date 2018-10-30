@@ -13,7 +13,7 @@ This repository is downstream of
 
 To better understand and maintain our differences from fsnotify, we try to
 manage branches and tags in a specific fashion. First and foremost, all
-branches and tags from the upstream nginx repository are mirrored here.
+branches and tags from the upstream fsnotify repository are mirrored here.
 
 Anything that is Joyent-specific begins with a `joyent/` prefix.
 
@@ -28,7 +28,7 @@ above would be: `joyent/v1.4.7j1`. If we need to cut another release
 from this branch, we would tag it `joyent/v1.4.7j2` and continue to
 increment the number after the `j`. Note we use the `j` instead of `r`
 which would more traditionally be used to indicate a revision.  We use
-`j` in case fsnotify for some reason wants to use 'r' in its version strings.
+`j` in case fsnotify for some reason wants to use `r` in its version strings.
 
 When it comes time to update to a newer version of fsnotify, we would take
 the following steps:
